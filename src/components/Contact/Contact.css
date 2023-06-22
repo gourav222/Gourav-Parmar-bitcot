@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&family=Poppins:wght@300;400&family=Roboto:wght@400;700&family=Ubuntu&display=swap");
+.contact {
+  background-color: black;
+  width: 28vmax;
+  height: 35vmax;
+  margin: 1vmax 0 0 2vmax;
+  border-radius: 0.8vmax;
+  padding: 1vmax;
+  overflow-y: auto;
+}
+.allContact img {
+  width: 1.2vmax;
+  height: 1.2vmax;
+  margin: 0 0 0 1.5vmax;
+}
+.allContact {
+  width: 100%;
+  height: 3vmax;
+  font-size: 1.6vmax;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #64d7fa;
+  border: none;
+  border-radius: 0.4vmax;
+  color: white;
+  cursor: pointer;
+}
+.searchContact {
+  margin: 0.5vmax 0 0 5.5vmax;
+  border-radius: 0.3vmax;
+  border: none;
+  height: 1.2vmax;
+  width: 15vmax;
+  padding: 0.5vmax;
+}
+.contactList {
+  width: 100%;
+  height: 5vmax;
+  background-color: white;
+  color: black;
+  display: flex;
+  margin: 1vmax 0 0 0;
+  border-radius: 0.5vmax;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 0 0 2vmax;
+}
+.basicInfo {
+  display: flex;
+  align-items: center;
+}
+.basicInfo img {
+  width: 2vmax;
+  height: 2vmax;
+}
+.basicInfo div {
+  margin: 0 0 0 1vmax;
+}
+.basicInfo p {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+}
+.editMode button img {
+  width: 1.2vmax;
+  height: 1.2vmax;
+}
+.editMode {
+  margin: 0 2vmax 0 1vmax;
+  display: flex;
+}
+.editMode button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}

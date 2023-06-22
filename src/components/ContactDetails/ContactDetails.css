@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&family=Poppins:wght@300;400&family=Roboto:wght@400;700&family=Ubuntu&display=swap");
+.close-contact {
+  display: flex;
+  justify-content: space-between;
+}
+.close-contact button img {
+  width: 1.5vmax;
+  height: 1.5vmax;
+}
+.close-contact button {
+  background: none;
+  border: none;
+  margin-right: 1vmax;
+  cursor: pointer;
+}
+.close-contact h2 {
+  margin-left: 1vmax;
+}
+.contact-details {
+  background-color: white;
+  margin: 5vmax 0 0 40vmax;
+  position: fixed;
+  width: 25vmax;
+  height: 15vmax;
+  border-top-left-radius: 0.5vmax;
+  border-top-right-radius: 0.5vmax;
+}
+.details {
+  background-color: rgb(222, 251, 251);
+  padding: 0.1vmax 0.8vmax 0.1vmax 0.8vmax;
+}
+.details div {
+  border-radius: 0.4vmax;
+  background-color: white;
+}
+.details div p {
+  margin-left: 6vmax;
+  font-family: "Ubuntu", sans-serif;
+}

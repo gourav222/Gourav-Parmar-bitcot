@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&family=Poppins:wght@300;400&family=Roboto:wght@400;700&family=Ubuntu&display=swap");
+.addContact {
+  width: 25vmax;
+  height: 20vmax;
+  margin: -30vmax 0 0 40vmax;
+  border-top-left-radius: 0.5vmax;
+  border-top-right-radius: 0.5vmax;
+  font-family: "Ubuntu", sans-serif;
+  position: fixed;
+  background-color: white;
+}
+.addContact h2 {
+  color: rgb(186, 186, 186);
+  margin-left: 1vmax;
+}
+.closeAddContact img {
+  width: 1.5vmax;
+  height: 1.5vmax;
+}
+.closeAddContact {
+  display: flex;
+  justify-content: space-between;
+}
+.closeAddContact button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.Line {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(180, 180, 180);
+}
+.addContactForm {
+  margin: 1vmax 0 0 6vmax;
+  box-sizing: border-box;
+}
+.addContactForm div {
+  margin: 0.5vmax 0 0 0;
+}
+.addContactButton button {
+  border: none;
+  cursor: pointer;
+}
+.submitContact {
+  background: #3339f6;
+  width: 4vmax;
+  height: 1.5vmax;
+  border-radius: 0.3vmax;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+.resetContact {
+  background: black;
+  width: 4vmax;
+  height: 1.5vmax;
+  border-radius: 0.3vmax;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0 0 0 0.5vmax;
+}
+.modal-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(123, 123, 123, 0.9);
+}
